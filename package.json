@@ -6,7 +6,7 @@
     "audit:ci": "./scripts/yarn-audit.sh",
     "watch": "./scripts/build.sh watcher watch",
     "watch:clean": "./scripts/build.sh watcher clean",
-    "clean:ios": "rm -rf ios/build",
+    "clean:ios": "del -rf ios/build",
     "pod:install": "command -v pod && (cd ios/ && pod install && cd ..) || echo \"Skipping pod install\"",
     "clean:android": "rm -rf android/app/build",
     "clean:node": "rm -rf node_modules && yarn --frozen-lockfile",
@@ -548,7 +548,7 @@
     "fs": "react-native-level-fs"
   },
   "engines": {
-    "node": "~18.18.2",
+    "node": "20.11.0",
     "yarn": "^1.22.0"
   },
   "lavamoat": {
