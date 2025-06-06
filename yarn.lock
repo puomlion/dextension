@@ -5803,23 +5803,10 @@
     ts-dedent "^2.0.0"
     uuid "^9.0.0"
 
-"@storybook/addon-controls@^7.5.1":
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-controls/-/addon-controls-7.5.1.tgz#606443cf792d98e8b2d61c94e5ffb359b253c119"
-  integrity sha512-Xag1e7TZo04LjUenfobkShpKMxTtwa4xM4bXQA8LjaAGZQ7jipbQ4PE73a17K59S2vqq89VAhkuMJWiyaOFqpw==
-  dependencies:
-    "@storybook/blocks" "7.5.1"
-    "@storybook/client-logger" "7.5.1"
-    "@storybook/components" "7.5.1"
-    "@storybook/core-common" "7.5.1"
-    "@storybook/core-events" "7.5.1"
-    "@storybook/manager-api" "7.5.1"
-    "@storybook/node-logger" "7.5.1"
-    "@storybook/preview-api" "7.5.1"
-    "@storybook/theming" "7.5.1"
-    "@storybook/types" "7.5.1"
-    lodash "^4.17.21"
-    ts-dedent "^2.0.0"
+"@storybook/addon-controls@^9.0.5":
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-controls/-/addon-controls-9.0.5.tgz#2031d768a410e695f19d7719be68fd8095eb833c"
+  integrity sha512-ot4rKr74lOXA2wbxANjr4Q5W+5LtUwjaFabaCg7k+3ClBCIpUse5kTclxi1NCtsI/NP2JKYFXo1/+egl0ReqQw==
 
 "@storybook/addon-knobs@^5.3":
   version "5.3.21"
@@ -5977,35 +5964,6 @@
     regenerator-runtime "^0.13.7"
     store2 "^2.12.0"
     telejson "^6.0.8"
-    ts-dedent "^2.0.0"
-    util-deprecate "^1.0.2"
-
-"@storybook/blocks@7.5.1":
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.5.1.tgz#c215da2e82234a703912410c52334fbade163b48"
-  integrity sha512-7b69p6kDdgmlejEMM2mW6/Lz4OmU/R3Qr+TpKnPcV5iS7ADxRQEQCTEMoQ5RyLJf0vDRh/7Ljn/RMo8Ux3X7JA==
-  dependencies:
-    "@storybook/channels" "7.5.1"
-    "@storybook/client-logger" "7.5.1"
-    "@storybook/components" "7.5.1"
-    "@storybook/core-events" "7.5.1"
-    "@storybook/csf" "^0.1.0"
-    "@storybook/docs-tools" "7.5.1"
-    "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.5.1"
-    "@storybook/preview-api" "7.5.1"
-    "@storybook/theming" "7.5.1"
-    "@storybook/types" "7.5.1"
-    "@types/lodash" "^4.14.167"
-    color-convert "^2.0.1"
-    dequal "^2.0.2"
-    lodash "^4.17.21"
-    markdown-to-jsx "^7.1.8"
-    memoizerific "^1.11.3"
-    polished "^4.2.2"
-    react-colorful "^5.1.2"
-    telejson "^7.2.0"
-    tocbot "^4.20.1"
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
@@ -6349,18 +6307,6 @@
   integrity sha512-4hE3AlNVxR60Wc5KSC68ASYzUobjPqtSKyhV6G+ge0FIXU55N5nTY7dXGRZHQGDBPq+XqchMkIdlkHPRs8nTHg==
   dependencies:
     type-fest "^2.19.0"
-
-"@storybook/docs-tools@7.5.1":
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.5.1.tgz#a1266314e64929498d3c41483ac9794cf3707102"
-  integrity sha512-tDtQGeKU5Kc2XoqZ5vpeGQrOkRg2UoDiSRS6cLy+M/sMB03Annq0ZngnJXaMiv0DLi2zpWSgWqPgYA3TJTZHBw==
-  dependencies:
-    "@storybook/core-common" "7.5.1"
-    "@storybook/preview-api" "7.5.1"
-    "@storybook/types" "7.5.1"
-    "@types/doctrine" "^0.0.3"
-    doctrine "^3.0.0"
-    lodash "^4.17.21"
 
 "@storybook/global@^5.0.0":
   version "5.0.0"
@@ -7024,11 +6970,6 @@
   resolved "https://registry.yarnpkg.com/@types/diff/-/diff-5.0.2.tgz#dd565e0086ccf8bc6522c6ebafd8a3125c91c12b"
   integrity sha512-uw8eYMIReOwstQ0QKF0sICefSy8cNO/v7gOTiIy9SbwuHyEecJUm7qlgueOO5S1udZ5I/irVydHVwMchgzbKTg==
 
-"@types/doctrine@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@types/doctrine/-/doctrine-0.0.3.tgz#e892d293c92c9c1d3f9af72c15a554fbc7e0895a"
-  integrity sha512-w5jZ0ee+HaPOaX25X2/2oGR/7rgAQSYII7X7pp0m9KgBfMP7uKfMfTvcpl5Dj+eDBbpxKGiqE+flqDr6XTd2RA==
-
 "@types/easy-table@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@types/easy-table/-/easy-table-1.2.0.tgz#d7153551a2c3f6571dddff974b05aa2fb1a4a948"
@@ -7294,7 +7235,7 @@
   dependencies:
     "@types/lodash" "*"
 
-"@types/lodash@*", "@types/lodash@^4.14.167", "@types/lodash@^4.14.175", "@types/lodash@^4.14.184":
+"@types/lodash@*", "@types/lodash@^4.14.175", "@types/lodash@^4.14.184":
   version "4.14.198"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.198.tgz#4d27465257011aedc741a809f1269941fa2c5d4c"
   integrity sha512-trNJ/vtMZYMLhfN45uLq4ShQSw0/S7xCTLLVM+WM1rmFpba/VS42jVUgaO3w/NOLiWR/09lnYk0yMaA/atdIsg==
@@ -19270,11 +19211,6 @@ markdown-to-jsx@^6.11.4:
     prop-types "^15.6.2"
     unquote "^1.1.0"
 
-markdown-to-jsx@^7.1.8:
-  version "7.3.2"
-  resolved "https://registry.yarnpkg.com/markdown-to-jsx/-/markdown-to-jsx-7.3.2.tgz#f286b4d112dad3028acc1e77dfe1f653b347e131"
-  integrity sha512-B+28F5ucp83aQm+OxNrPkS8z0tMKaeHiy0lHJs3LqCyDQFtWuenaIrkaVTgAm1pf1AU85LXltva86hlaT17i8Q==
-
 marky@^1.2.2:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/marky/-/marky-1.2.5.tgz#55796b688cbd72390d2d399eaaf1832c9413e3c0"
@@ -22316,11 +22252,6 @@ react-color@^2.17.0:
     prop-types "^15.5.10"
     reactcss "^1.2.0"
     tinycolor2 "^1.4.1"
-
-react-colorful@^5.1.2:
-  version "5.6.1"
-  resolved "https://registry.yarnpkg.com/react-colorful/-/react-colorful-5.6.1.tgz#7dc2aed2d7c72fac89694e834d179e32f3da563b"
-  integrity sha512-1exovf0uGTGyq5mXQT0zgQ80uvj2PCwvF8zY1RN9/vbJVSjSo3fsB/4L3ObbF7u70NduSiK4xu4Y6q1MHoUGEw==
 
 react-devtools-core@4.28.4, react-devtools-core@^4.26.1:
   version "4.28.4"
@@ -25562,11 +25493,6 @@ to-regex-range@^5.0.1:
   integrity sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
   dependencies:
     is-number "^7.0.0"
-
-tocbot@^4.20.1:
-  version "4.21.1"
-  resolved "https://registry.yarnpkg.com/tocbot/-/tocbot-4.21.1.tgz#7b667bef1c3ea1a07e4f400b742aa71e7e7e5ba0"
-  integrity sha512-IfajhBTeg0HlMXu1f+VMbPef05QpDTsZ9X2Yn1+8npdaXsXg/+wrm9Ze1WG5OS1UDC3qJ5EQN/XOZ3gfXjPFCw==
 
 toggle-selection@^1.0.6:
   version "1.0.6"
